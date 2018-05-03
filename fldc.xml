@@ -14,7 +14,7 @@
 		    <ChangelogUrl
                 id="changelog"
                 title="Changelog"
-                description="View Changelog">https://github.com/fldc/OTA/CHANGELOG.mkdn</ChangelogUrl>
+                description="View Changelog">https://github.com/fldc/OTA/raw/master/CHANGELOG.mkdn</ChangelogUrl>
             <FirmwareUrl
             	id="firmware"
             	title="Firmware"
