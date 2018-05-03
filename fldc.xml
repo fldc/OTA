@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
+    <Stable>
+        <cheeseburger>
+            <Filename>RR-O-v6.0.0-20180503-cheeseburger-Official.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Rom"
+		description="Latest ResurrectionRemix build">https://drive.google.com/open?id=161pwDYetGrGssAfI5a7ySKsiX1m8v10f</RomUrl>
+            <OpenGappsUrl
+                id="open_gapps"
+                title="OpenGApps"
+                description="Download latest OpenGApps">http://opengapps.org</OpenGappsUrl>
+		    <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="View Changelog">https://github.com/fldc/OTA/CHANGELOG.mkdn</ChangelogUrl>
+            <FirmwareUrl
+            	id="firmware"
+            	title="Firmware"
+            	description="Latest firmware">https://jamal2367.com/downloads/?dir=OnePlus%205</FirmwareUrl>
+	</cheeseburger>
+    </Stable>
+</SlimOTA>
