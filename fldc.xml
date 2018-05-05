@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <cheeseburger>
-            <Filename>RR-O-v6.0.0-20180503-cheeseburger-Official.zip</Filename>
+            <Filename>RR-O-v6.0.0-20180504-cheeseburger-Unofficial.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
-		description="Latest ResurrectionRemix build">https://drive.google.com/open?id=161pwDYetGrGssAfI5a7ySKsiX1m8v10f</RomUrl>
+		description="Latest ResurrectionRemix build">https://drive.google.com/open?id=16AjBq6XngORm_J0BBw_w2kHDruCdygJP</RomUrl>
             <OpenGappsUrl
                 id="open_gapps"
                 title="OpenGApps"
