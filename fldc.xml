@@ -2,7 +2,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <cheeseburger>
-            <Filename>RR-O-v6.0.0-20180504-cheeseburger-Unofficial.zip</Filename>
+            <Filename>RR-O-v6.0.0-20180508-cheeseburger-Unofficial.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Rom"
