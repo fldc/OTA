@@ -1,5 +1,45 @@
 
-Resurrection Remix Oreo Ver 6.0.0 Changelog
+ ▼ Resurrection Remix Oreo Ver 6.0.0 Changelog
+
+
+====================
+     05-11-2018
+====================
+
+
+   * device/oneplus/msm8998-common/
+b69342e msm8998: fix display mode mappings
+
+   * system/netd/
+7bb7576 [3/3] NetD : Allow passing in interface names for wifi/data app restriction
+
+====================
+     05-10-2018
+====================
+
+   * android/
+5ea2644 Switch to our netd fork
+bab0aa4 manifest: android-8.1.0_r20 -> android-8.1.0_r26
+
+   * build/make/
+0ebc1f3a6 Merge tag 'android-8.1.0_r26' of https://android.googlesource.com/platform/build into HEAD
+
+   * frameworks/base/
+25635e909fd Merge tag 'android-8.1.0_r26' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+   * frameworks/native/
+057eef0d2 Merge branch 'lineage-15.1' of https://github.com/LineageOS/android_frameworks_native into HEAD
+
+   * packages/services/Telephony/
+b998b02c8 Suspend Actions [2/3]
+eba0616f0 Merge tag 'android-8.1.0_r26' into lineage-15.1
+
+   * system/core/
+eb6ca2a1b Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_system_core into HEAD
+
+====================
+     05-09-2018
+====================
 
 
 ====================
