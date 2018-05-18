@@ -3,15 +3,107 @@
 
 
 ====================
-     05-11-2018
+     05-17-2018
+====================
+
+
+   * packages/apps/Settings/
+c4edc554e8 Add Samsung A3 2017
+
+====================
+     05-16-2018
+====================
+
+
+   * packages/overlays/Resurrection/
+c69789c Merge pull request #1 from mcdachpappe/blacktheme
+
+====================
+     05-15-2018
+====================
+
+
+   * external/json-c/
+6aa3e16 libjson: Remove dependency on kernel headers
+
+====================
+     05-14-2018
+====================
+
+   * android/
+7f32855 Addd bc to the list of required packages (#120)
+
+   * vendor/oneplus/
+a6858932 oneplus2: Hex-edit sound trigger blob correctly
+270ac231 oneplus2: Move bluetooth firmware to /vendor/firmware
+
+====================
+     05-13-2018
+====================
+
+   * android/
+7be4338 manifest: track own dialer, contacts, messaging
+
+   * build/make/
+b63dc82ea Move away from USE_HOST flag and introduce $BINARY_EXEC
+
+   * build/soong/
+aa31b02 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * frameworks/base/
+11bbe52ffa6 Merge pull request #227 from alex9yust/oreo
+
+   * packages/apps/Contacts/
+46caf3bca Use white navbar for Dialer and Contacts [2/2]
+
+   * packages/apps/Dialer/
+5758aadbd Use white navbar for Dialer and Contacts [1/2]
+85c87046e Show proper call duration
+
+   * packages/apps/Messaging/
+f98a132 Use light navigation bar
+
+   * vendor/oneplus/
+8877c48e oneplus2: hexedit some blobs to /vendor path
+
+   * vendor/rr/
+f65745cb apn: Fix typo in Rogers roaming protocol
+fd663715 apns: Adjust MetroPCS apn to allow USB tether
+0dafaa12 lineage: Remove FFmpeg plugin remnants
+
+====================
+     05-12-2018
 ====================
 
 
    * device/oneplus/msm8998-common/
 b69342e msm8998: fix display mode mappings
 
+   * frameworks/base/
+1fcd8e26944 setting the correct value for Control ringtone volume after reboot.
+
+   * packages/apps/Settings/
+a715a947a9 fix of the fall of Settings when the screen is rotated, if we are in STATUS BAR - Network traffic.
+
+   * packages/overlays/Resurrection/
+bab17a7 Black Theme: add missing styles
+
+   * system/extras/
+8b4e8c51 Fix mac build.
+
+====================
+     05-11-2018
+====================
+
+
+   * frameworks/base/
+0053d47fd8a fix sleepless kernel mWakefulness may be ASLEEP, DREAMING and DOZING for sleep. but checked only ASLEEP.
+
    * system/netd/
 7bb7576 [3/3] NetD : Allow passing in interface names for wifi/data app restriction
+
+   * device/oneplus/msm8998-common/
+b69342e msm8998: fix display mode mappings
 
 ====================
      05-10-2018
