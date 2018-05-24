@@ -3,6 +3,78 @@
 
 
 ====================
+     05-24-2018
+====================
+
+
+   * device/oneplus/msm8998-common/
+f04739d msm8998-common: Delete /mnt/sdcard symlink
+85af7c7 msm8998-common: Remove cpuset foreground boost
+5e08d54 msm8998-common: Remove system-background schedtune configuration
+1d7c8ed Merge remote-tracking branch 'rr-devices/oreo' into custom
+
+   * vendor/oneplus/
+e0fd1fee op3: Update blobs from OB36/OB27
+
+====================
+     05-23-2018
+====================
+
+
+====================
+     05-22-2018
+====================
+
+
+====================
+     05-21-2018
+====================
+
+
+   * frameworks/base/
+528873dcedb Merge pull request #229 from shahan-mik3/oreo
+
+   * hardware/qcom/audio-caf/msm8952/
+61ebd0f75 Merge remote-tracking branch 'caf/LA.BR.1.3.7_rb1.11' into lineage-15.1-caf-8952
+
+   * hardware/qcom/media-caf/msm8952/
+892df5cc4 Merge remote-tracking branch 'caf/LA.BR.1.3.7_rb1.11' into lineage-15.1-caf-8952
+
+   * lineage-sdk/
+11efd13 Merge pull request #1 from shahan-mik3/oreo
+
+   * packages/apps/Recorder/
+5191f7d Recorder: update assets to use rounded style
+a1220a7 Recorder: support down to api24
+
+   * packages/apps/Settings/
+2335144754 Merge pull request #961 from shahan-mik3/oreo
+
+====================
+     05-20-2018
+====================
+
+
+   * packages/apps/Recorder/
+53a7880 Recorder: update deprecated methods to new ones
+b768a6a Recorder: update aar libs
+b73f5b6 Recorder: update gradle deps
+
+====================
+     05-19-2018
+====================
+
+
+   * frameworks/base/
+d256dc80974 Add an option to force pre-O apps to use full screen aspect ratio
+
+   * packages/apps/Gallery2/
+1a8915fb7 Add new rule about watermark
+
+   * packages/apps/Settings/
+58b915899c Settings: Add an option to force pre-O apps to use full screen aspect ratio
+
+====================
      05-18-2018
 ====================
 
