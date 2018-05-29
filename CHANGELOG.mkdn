@@ -3,6 +3,62 @@
 
 
 ====================
+     05-29-2018
+====================
+
+
+   * packages/apps/Settings/
+7815df066b Rom about update
+0cd8ac0cf3 Merge pull request #959 from root2raj/oreo
+
+   * vendor/oneplus/
+1de8dda6 msm8998: update blobs from 5.1.2
+0894ad90 oneplus2: move msm_irqbalance.conf to device
+
+====================
+     05-28-2018
+====================
+
+   * android/
+cb480ca Add Jelly back (#118)
+
+   * packages/apps/Settings/
+7faf108a63 Fix ScreenShot Editor APP FC
+b00f05fad9 Merge pull request #965 from LMMFHHO/oreo
+
+====================
+     05-27-2018
+====================
+
+
+   * packages/apps/Settings/
+09d08251a0 Merge pull request #963 from itsHardStyl3r/oreo
+
+====================
+     05-26-2018
+====================
+
+
+   * frameworks/base/
+
+   * kernel/oneplus/msm8998/
+a33ffd66dc36 UPSTREAM: ANDROID: binder: prevent transactions into own process.
+86733a39492d ANDROID: sdcardfs: Don't d_drop in d_revalidate
+8eaebada6f7c ANDROID: sdcardfs: Set s_root to NULL after putting
+bfb44c2dd741 ANDROID: sdcardfs: d_make_root calls iput
+db84498af0d4 ANDROID: sdcardfs: Check for private data earlier
+2d81ee0ad42f ANDROID: sdcardfs: Fix sdcardfs to stop creating cases-sensitive duplicate entries.
+05ccbe622581 ANDROID: fuse: Add null terminator to path in canonical path to avoid issue
+66b77dd31f7b oneplus5: enable CONFIG_PM_AUTOSLEEP for treble
+
+   * packages/apps/Settings/
+
+====================
+     05-25-2018
+====================
+
+
+====================
      05-24-2018
 ====================
 
