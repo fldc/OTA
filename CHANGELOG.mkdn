@@ -3,6 +3,262 @@
 
 
 ====================
+     06-11-2018
+====================
+
+   * android/
+6744938 manifest: android-8.1.0_r26 -> android-8.1.0_r30
+c5ead4f manifest: Track own external/libvorbis
+
+   * build/make/
+391cf9c7e build: Add new variable to hold generic build properties
+fb1a406d5 core: Remove deprecated kernel header dependency path warning
+cc183a18c build: Clean up makefile hook inclusions
+afa5bbb4d build: Include LineageOS specific properties in build.prop
+d7f06ccb3 Merge tag 'android-8.1.0_r30' of https://android.googlesource.com/platform/build into HEAD
+
+   * device/oneplus/cheeseburger/
+27a3032 cheeseburger: add require firmware info
+
+   * device/oneplus/msm8998-common/
+87ca1d3 msm8998-common: set vendor security patch level
+f374cb4 msm8998: releasetools: make modem check more user friendly
+
+   * device/rr/sepolicy/
+9de5f95 Merge https://github.com/LineageOS/android_device_lineage_sepolicy into oreo
+
+   * frameworks/av/
+5e433d747 Merge tag 'android-8.1.0_r30' into lineage-15.1
+
+   * frameworks/base/
+c14d0a15996 base: introduce trust interface
+
+   * frameworks/opt/telephony/
+ccbfdaede Merge tag 'android-8.1.0_r30' into lineage-15.1
+
+   * hardware/interfaces/
+8184564c Merge tag 'android-8.1.0_r30' into lineage-15.1
+
+   * lineage-sdk/
+42eb263 TrustInterface: Remove useless check
+5f75487 TrustInterface: Fix default root access value
+3f0c299 Fix config.xml indentation
+d55299f sdk: Introduce Trust Interface
+
+   * packages/apps/LineageParts/
+e72903f LineageParts: fix Trust onBoarding completion when clicking
+6ce4474 LineageParts: introduce Trust interface
+
+   * packages/apps/Settings/
+8099ba6c68 Privacy Guard: Add icon for VPN permission
+3c7f254c6b Privacy Guard: Avoid NPE when tinting permission icons
+a71cbe7dd5 Move BQ phone into the right catagory (#977)
+b91f8b141c Settings: add Trust interface hook
+
+   * packages/providers/MediaProvider/
+6fde9ca Merge tag 'android-8.1.0_r30' into lineage-15.1
+
+   * packages/providers/UserDictionaryProvider/
+d35f80e Merge tag 'android-8.1.0_r30' into lineage-15.1
+
+   * system/bt/
+2e5099c3 Merge tag 'android-8.1.0_r30' into lineage-15.1
+
+   * vendor/oneplus/
+1c86ee0e oneplus2: kang netmgrd and libnetmgr from kenzo
+
+   * vendor/rr/
+012d15b5 main_version: Refactor for RR
+9fb40775 rr: main.mk: fix after f8422996
+9e3ccf4d RR: changelog for 6.1
+62124e51 Merge branch 'oreo' into HEAD
+8e41a55d vendor: introduce Trust interface
+4d7b0cde lineage: qcom: Enable TARGET_USES_COLOR_METADATA for msm8937 & msm8953
+f8422996 build: Clean up makefile inclusions
+5f576c48 apns: Add UPC Mobile
+a4a63e6f build: Use TOPDIR, not TOP
+61860731 clear_vars: Remove Maven leftovers
+4945c553 build: Remove HTTP_PREBUILT
+e64f286e build: Remove maven make rules
+8df42a73 rr: update for v6.1.0
+
+====================
+     06-10-2018
+====================
+
+
+   * frameworks/native/
+bd406535b Merge tag 'android-8.1.0_r30' of https://android.googlesource.com/platform/frameworks/native into oreo
+
+   * hardware/lineage/interfaces/
+f66d76e livedisplay: Correct macro copypasta
+
+====================
+     06-09-2018
+====================
+
+
+   * packages/apps/Jelly/
+6432e80 Jelly: Add support for multiple windows
+
+   * packages/apps/Settings/
+f97842bd7a Change oreo device maintainer to me (#976)
+
+====================
+     06-08-2018
+====================
+
+
+   * hardware/lineage/interfaces/
+ac865c8 livedisplay: Remove unused using statements
+412bc94 livedisplay: Move LegacyMMController inclusion to impl
+
+   * lineage-sdk/
+e07772c Revert "lineage-sdk: Switch back to AOSP TwilightService"
+55dc83d Add led capability LIGHTS_ADJUSTABLE_BATTERY_LED_BRIGHTNESS
+
+====================
+     06-07-2018
+====================
+
+
+   * packages/apps/Settings/
+03f571552b Add on7xelte to oficial (#975)
+51016620c0 Add Asus Zenfone Max Pro M1 (X00TD) (#974)
+
+====================
+     06-06-2018
+====================
+
+
+   * frameworks/base/
+0ca7d5ad733 Merge tag 'android-8.1.0_r30' of https://android.googlesource.com/platform/frameworks/base into oreo
+
+====================
+     06-05-2018
+====================
+
+
+   * device/qcom/sepolicy/
+5f24467 Merge https://github.com/LineageOS/android_device_qcom_sepolicy into oreo
+
+   * device/rr/sepolicy/
+0c9e3c9 Merge https://github.com/LineageOS/android_device_lineage_sepolicy into oreo
+
+   * frameworks/base/
+24ac5bcda4b Update text size of overflow number view
+b5b69060139 SystemUI: update heads up, sync and volume panel drawables
+3da2470f5b2 SystemUI: Don't append app name to file on lockscreen
+d5288de6961 SystemUI: Enable dualTarget on CellularTile
+6deca18ad9e Make it possible to hide signal strength via Carrier Config
+6d634dad067 SystemUI: add navbar button layout inversion tuning
+
+   * frameworks/native/
+9dc672b2c Merge https://github.com/LineageOS/android_frameworks_native into oreo
+
+   * lineage-sdk/
+dd6f451 lineage-sdk: Add backend for reading enhancement
+a6666e1 lineage-sdk: Switch back to AOSP TwilightService
+
+   * packages/apps/Dialer/
+dada2e7e6 Merge https://github.com/LineageOS/android_packages_apps_Dialer into oreo
+
+   * packages/apps/LineageParts/
+fbf21d0 LiveDisplay: Set Reading Mode switch preference as non-persistent
+aeeb69a LineageParts: Add Reader mode frontend
+bcb540b LineageParts: make volume button re-orient functionality act based on relevant input
+
+   * packages/apps/Settings/
+2dc1d8854e Add Redmi 2 Maintainer (#972)
+
+   * packages/apps/Snap/
+5438ac66e SnapdragonCamera: Panorama, replace border drawable
+a5d7aea7f Snap: remove unused shutter buttons
+
+   * packages/services/Telecomm/
+8f6294a1 Merge https://github.com/LineageOS/android_packages_services_Telecomm into oreo
+
+   * system/core/
+b058bb933 Merge https://github.com/LineageOS/android_system_core into oreo
+
+   * vendor/rr/
+52cb504d Fix RR properties for splitted vendor devices (#113)
+eb598d69 lineage: qcom: Enable TARGET_USES_COLOR_METADATA for msm8937 & msm8953
+730343c9 apns: Add UPC Mobile
+184986ff verity: Implement verity tool
+
+====================
+     06-04-2018
+====================
+
+
+   * packages/apps/Settings/
+15af046da7 Merge pull request #973 from Astridxx/patch-1
+d7d29005df Update Turkish translation
+
+====================
+     06-03-2018
+====================
+
+
+   * frameworks/base/
+97f512f8f22 Keyguard: Fix Turkish translation
+
+   * lineage-sdk/
+
+   * packages/apps/DUI/
+
+   * packages/apps/Dialer/
+
+   * packages/apps/FMRadio/
+
+   * packages/apps/Jelly/
+
+   * packages/apps/LineageParts/
+
+   * packages/apps/Recorder/
+
+   * packages/apps/ResurrectionOTA/
+
+   * packages/apps/Settings/
+ded8c06d95 Merge pull request #971 from thedeadfish59/patch-2
+255d1a497b Update resurrection_device_maintainers_strings.xml
+370921b122 Merge pull request #969 from fosseperme/oreo
+589d488dbb Merge pull request #968 from TTTT555/oreo
+
+   * packages/apps/Snap/
+
+   * packages/services/OmniJaws/
+
+====================
+     06-02-2018
+====================
+
+
+   * packages/apps/Settings/
+4d938384e0 Added Nubia Z9 mini  Maintainer https://github.com/TTTT555/android_device_nubia_nx511j/tree/rr-o https://github.com/TTTT555/android_kernel_nubia_nx511j https://github.com/TTTT555/android_vendor_nubia_nx511j ROM: https://drive.google.com/file/d/1DxzKFvqCPN63L2jtXL4TgU9xHdj2zIYb https://user-images.githubusercontent.com/34489574/40805819-d4f50a58-651f-11e8-83d5-b52381610da3.png @mracar
+
+====================
+     06-01-2018
+====================
+
+
+====================
+     05-31-2018
+====================
+
+
+   * packages/apps/Eleven/
+d378526 Eleven: Catch unsupported bitmap exception
+
+   * packages/providers/ContactsProvider/
+44ba9b91 CallLogDatabase: Bump the version and try to re-run the version 5 upgrade path
+
+====================
+     05-30-2018
+====================
+
+====================
      05-29-2018
 ====================
 
