@@ -1,6 +1,104 @@
 
- ▼ Resurrection Remix Oreo Ver 6.0.0 Changelog
+ ▼ Resurrection Remix Oreo Ver 6.1.0 Changelog
 
+
+====================
+     06-15-2018
+====================
+
+
+   * device/oneplus/msm8998-common/
+35d500e msm8998: overlay: get rid of reading and greyscale mode
+75c2cf2 msm8998: Remove local copy of thermal/VR HALs
+
+   * packages/apps/Settings/
+e0ebfc48b3 Kenzo maintainer change
+
+====================
+     06-14-2018
+====================
+
+
+   * packages/apps/Settings/
+75ee8bcc3d Merge pull request #983 from tfae/oreo
+
+   * vendor/oneplus/
+2b1ddc86 op3: Update blobs from OB37/OB28
+
+====================
+     06-13-2018
+====================
+
+
+   * packages/apps/Settings/
+5fe0829c87 Update pt-PT cm_strings
+295bfaa99b Merge pull request #980 from tfae/oreo
+5690ad95c6 Angler Maintainer Changes (#981)
+798c3741cf Fixes in strings/translations
+
+====================
+     06-12-2018
+====================
+
+   * android/
+6744938 manifest: android-8.1.0_r26 -> android-8.1.0_r30
+c5ead4f manifest: Track own external/libvorbis
+
+   * bootable/recovery/
+afc64549 recovery: Do not load time from /persist
+6ac3bb48 recovery: New install/progress animation
+
+   * build/make/
+391cf9c7e build: Add new variable to hold generic build properties
+fb1a406d5 core: Remove deprecated kernel header dependency path warning
+cc183a18c build: Clean up makefile hook inclusions
+afa5bbb4d build: Include LineageOS specific properties in build.prop
+d7f06ccb3 Merge tag 'android-8.1.0_r30' of https://android.googlesource.com/platform/build into HEAD
+
+   * device/oneplus/cheeseburger/
+27a3032 cheeseburger: add require firmware info
+
+   * device/oneplus/msm8998-common/
+87ca1d3 msm8998-common: set vendor security patch level
+f374cb4 msm8998: releasetools: make modem check more user friendly
+
+   * device/rr/sepolicy/
+9de5f95 Merge https://github.com/LineageOS/android_device_lineage_sepolicy into oreo
+
+   * frameworks/base/
+c14d0a15996 base: introduce trust interface
+
+   * lineage-sdk/
+42eb263 TrustInterface: Remove useless check
+5f75487 TrustInterface: Fix default root access value
+3f0c299 Fix config.xml indentation
+d55299f sdk: Introduce Trust Interface
+
+   * packages/apps/LineageParts/
+e72903f LineageParts: fix Trust onBoarding completion when clicking
+6ce4474 LineageParts: introduce Trust interface
+
+   * packages/apps/Settings/
+1bf4f052f0 Zuk Maintainer Changes
+8099ba6c68 Privacy Guard: Add icon for VPN permission
+3c7f254c6b Privacy Guard: Avoid NPE when tinting permission icons
+a71cbe7dd5 Move BQ phone into the right catagory (#977)
+b91f8b141c Settings: add Trust interface hook
+
+   * vendor/rr/
+012d15b5 main_version: Refactor for RR
+9fb40775 rr: main.mk: fix after f8422996
+9e3ccf4d RR: changelog for 6.1
+62124e51 Merge branch 'oreo' into HEAD
+8e41a55d vendor: introduce Trust interface
+4d7b0cde lineage: qcom: Enable TARGET_USES_COLOR_METADATA for msm8937 & msm8953
+f8422996 build: Clean up makefile inclusions
+5f576c48 apns: Add UPC Mobile
+a4a63e6f build: Use TOPDIR, not TOP
+61860731 clear_vars: Remove Maven leftovers
+4945c553 build: Remove HTTP_PREBUILT
+e64f286e build: Remove maven make rules
+8df42a73 rr: update for v6.1.0
 
 ====================
      06-11-2018
