@@ -3,7 +3,219 @@
 
 
 ====================
-     06-15-2018
+     06-26-2018
+====================
+
+
+   * device/oneplus/msm8998-common/
+748ae10 msm8998: init: Add IFAA daemon for Alipay fingerprint support
+164735f msm8998: Add sepolicy for Alipay fingerprint support
+9b017ac msm8998-common: add IFAA for Alipay fingerprint support
+601feed msm8998-common: Remove license.lic
+
+   * frameworks/opt/telephony/
+a448840d3 Revert "Don't assume 3GPP as active app on CDMA with LTE device"
+
+====================
+     06-25-2018
+====================
+
+   * android/
+3588a30 manifest: update rr remote
+
+   * device/qcom/sepolicy/
+7290a34 sepolicy: Allow perf HAL to set freq props
+c601ff4 legacy: allow gnss to create dir for xtra data
+a5d6ea2 legacy: Add rules for init.qcom.bt.sh
+
+   * device/rr/sepolicy/
+e7e4f0c Add pocket judge selinux policy
+594be08 sepolicy: Add policy for edgegestureservice
+eef1865 sepolicy: update for rr
+
+   * frameworks/base/
+86d9a4554c2 Stop crashing qs tiles during boot
+
+   * packages/apps/Snap/
+1dccab48b Snap: turn developer category title into a translatable string
+
+   * system/sepolicy/
+6a2b4014 sepolicy: allow update_engine to bypass neverallows for backuptool
+
+   * vendor/rr/
+88a7815a vendor: update repopick to work with RR's gerrit
+
+====================
+     06-24-2018
+====================
+
+   * android/
+b0ac8aa manifest: set review URL
+03b3832 snippets: rr.xml: cleanup
+
+   * frameworks/base/
+4a4369db63b Don't show confirm dialog on disable Cellular QS tile
+
+====================
+     06-23-2018
+====================
+
+
+   * bootable/recovery/
+ac258a4f update_verifier: skip verity to determine successful on lineage builds
+97d1ae90 Add runtime checks for A/B vs traditional updates
+
+   * device/oppo/common/
+c8c628f Add/fix pt-PT translations
+
+   * device/rr/sepolicy/
+c9b0d95 sepolicy: add rules for updater and update_engine
+37422f7 common: add update_engine policies
+
+   * lineage-sdk/
+b4c2ab6 lineage-sdk: Add vendor platform signature overlay
+
+   * packages/apps/Settings/
+eb8ec76f4a Remove A6020 as OFFICIAL
+
+====================
+     06-22-2018
+====================
+
+
+   * bionic/
+ed4c3a6bd bionic: Sort and cache hosts file data for fast lookup
+
+   * bootable/recovery/
+bc57208d recovery: Scale logo image if necessary
+45e8b038 recovery: minui: Implement image scaling
+118d8481 recovery: Allow bypassing signature verification on non-release builds
+e895ce41 recovery: Allow detecting user/release build at compile time
+cd840c41 recovery: Rework sideload threading code for flexibility
+
+   * device/rr/sepolicy/
+41ac4fa sepolicy: Label aw2013 HIDL light HAL
+
+   * hardware/lineage/interfaces/
+1951e03 lineage/interfaces: Add aw2013 lights HIDL HAL implementation
+
+   * hardware/qcom/audio-caf/msm8916/
+8747be17d Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8974/
+e43a121ad visualizer: Build with BOARD_VNDK_VERSION
+3c29a7e51 voice_processing: Build with BOARD_VNDK_VERSION
+9ee58e793 post_proc: Build with BOARD_VNDK_VERSION
+ded474f6e mm-audio: Build with BOARD_VNDK_VERSION
+4325e02fb hal: Build with BOARD_VNDK_VERSION
+
+   * hardware/qcom/display-caf/msm8916/
+e7f80390c Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8916/
+55e0ac7d4 Merge remote-tracking branch 'caf/LA.BR.1.2.9.1_rb1.5' into lineage-15.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8974/
+7d2d0cb51 Build libstagefrighthw with BOARD_VNDK_VERSION
+
+   * packages/apps/Settings/
+60bd552209 Official GSI Images
+
+   * vendor/oneplus/
+76ed6981 bacon: Remove unused camera firmware
+
+====================
+     06-21-2018
+====================
+
+
+   * bootable/recovery/
+896f9d34 recovery: Allow device specific backlight path
+ebb529cb recovery: Add statusbar margin for panels with rounded corners
+
+====================
+     06-20-2018
+====================
+
+
+====================
+     06-19-2018
+====================
+
+
+   * bootable/recovery/
+85b7010e recovery: Do not show emulated when data is encrypted
+
+   * frameworks/base/
+0c9df02f24a Merge pull request #236 from alex9yust/oreo
+31bd24b615a SyetmUI: fix the behavior of QS with isDualTarget=true
+
+   * hardware/lineage/interfaces/
+2b941ed livedisplay: Fix uninitialized default PA
+
+   * hardware/qcom/fm/
+
+   * packages/apps/AudioFX/
+
+   * packages/apps/Gallery2/
+
+   * packages/apps/Jelly/
+
+   * packages/apps/LockClock/
+
+   * packages/apps/Recorder/
+
+   * packages/apps/Snap/
+
+====================
+     06-18-2018
+====================
+
+   * android/
+b723055 manifest: Remove external/libvorbis
+c2c7d39 lineage: Sync qcom thermal and vr HALs
+f8608e1 Switch to our system/security fork
+
+   * frameworks/base/
+d3ec0733cb6 Merge pull request #235 from alex9yust/oreo
+b6e16612a8f start ScreenStateService after reboot It is necessary for the Suspend Actions from Miscellaneous settings.
+7290cbb75cf SystemUI: Fix status bar bluetooth <50% drawable
+
+====================
+     06-17-2018
+====================
+
+
+   * bootable/recovery/
+7a926465 recovery: Add resize2fs
+
+   * device/qcom/sepolicy/
+4e72121 Merge https://github.com/LineageOS/android_device_qcom_sepolicy into oreo
+
+   * frameworks/base/
+2ffe68a2c28 SystemUI: Add Lineage statusbar item holder
+9ea9e0b1872 Sometimes this happens when changing the theme (#234)
+
+   * lineage-sdk/
+ce9185e lineage-sdk: Add LineageStatusBarItem interfaces
+
+   * packages/apps/LineageParts/
+2021bb5 Exclude trust onboarding from recents
+
+   * packages/apps/ResurrectionOTA/
+
+   * packages/apps/Settings/
+ba69025d3d Add Samsung A3 2016 (#984)
+22620b4c9e Kenzo maintainer change
+6052bec2c7 Update pt-PT cm_strings
+5e83a7000a Fixes in strings/translations
+
+   * vendor/rr/
+81417b0c lineage: qcom: Set thermal & vr HAL pathmaps
+91d783bd repopick: Update SSH queries result to match HTTP queries
+
+====================
+     06-16-2018
 ====================
 
 
@@ -11,8 +223,30 @@
 35d500e msm8998: overlay: get rid of reading and greyscale mode
 75c2cf2 msm8998: Remove local copy of thermal/VR HALs
 
-   * packages/apps/Settings/
-e0ebfc48b3 Kenzo maintainer change
+   * hardware/lineage/interfaces/
+995cd62 livedisplay: Use RAII semantics for ColorBackend initialization
+35484bb livedisplay: Move initialization of mActiveModeId to constructor
+af12c6e livedisplay: Convert controller singletons to regular objects
+21c71ae livedisplay: Move Color::check function to implementation
+cfd7b99 livedisplay: Don't use a singleton for Color service
+d6be15d livedisplay: Fix bogus print
+
+   * vendor/oneplus/
+4432f6f4 msm8998-common: Update makefile
+
+====================
+     06-15-2018
+====================
+
+
+   * hardware/lineage/interfaces/
+8127346 Revert "livedisplay: Don't use singletons for the stack"
+
+   * packages/apps/Nfc/
+45d2faf5 NFC: Clean duplicated and unknown permissions
+
+   * vendor/oneplus/
+85396a56 op3: Update blobs from OB37/OB28
 
 ====================
      06-14-2018
