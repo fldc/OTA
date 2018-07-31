@@ -3,6 +3,671 @@
 
 
 ====================
+     07-30-2018
+====================
+
+   * android/
+ecf9898 Enable LineageCustomizer
+
+   * build/make/
+2f96522d9 core: config: Use host ijar if requested
+4509180c7 dex2oat: disable multithreading for WSL
+1f9d4d68e Add detection for WSL
+349911a3b Adapt ijar for WSL
+
+   * device/oneplus/msm8998-common/
+c245b9e msm8998: update gps config
+b50cef2 oneplus_msm8998-common: update call recording overlays
+f9dce68 oneplus-msm8998: Drop deprecated OpenGLRenderer props
+
+   * frameworks/base/
+b44aaa35477 Proper supplementary service notification handling (1/5).
+
+   * lineage-sdk/
+
+   * packages/apps/Dialer/
+2e4c33a01 Proper supplementary service notification handling (5/5).
+9c5a91147 Re-add call statistics.
+0f4ccb29f Allow per-call account selection.
+
+   * packages/apps/LineageParts/
+58478f2 LineageParts: res: Delete duplicated and unused strings
+
+   * packages/apps/Settings/
+
+   * packages/services/Telecomm/
+246a1652 Proper supplementary service notification handling (3/5)
+
+   * packages/services/Telephony/
+c27def373 Proper supplementary service notification handling (4/5).
+
+   * system/core/
+498c2dd4d bsdgrep: for -r, use the working directory if none specified
+
+   * vendor/rr/
+46f261ba ATV: Build LineageCustomizer
+95ca5f6c prebuilt: apn: Sprint 2: Drop http definition from MMSC proxy
+a4e98c8e tools: Bump baksmali/smali to v2.2.4
+4f6b313f config/common: Organize filesystems tools
+eeae7bc3 prebuilt: apn: Sprint 2: Make IPv6 MMS Proxy default for the apn
+e2b60df1 config/common: Remove BluetoothExt from PRODUCT_PACKAGES
+
+====================
+     07-29-2018
+====================
+
+
+   * packages/apps/SnapdragonCamera2/
+ba3a7a15e add notch_size config
+
+====================
+     07-28-2018
+====================
+
+
+   * packages/apps/Jelly/
+5cfd61b Jelly: Show a Snackbar when removing an HistoryItem
+
+   * system/tools/hidl/
+2626915 Add DT_UNKNOWN handling
+4b19c46 Revert "Use stat() to determine file type from readdir()"
+
+====================
+     07-27-2018
+====================
+
+
+   * frameworks/av/
+fefb0b147 NdkMediaCodec: add AMediaCodec_getBufferFormat
+
+====================
+     07-26-2018
+====================
+
+
+====================
+     07-25-2018
+====================
+
+
+====================
+     07-24-2018
+====================
+
+
+   * hardware/qcom/power/
+651aa0f power-8084: rework power profiles
+
+   * hardware/ril-caf/
+5380335 libril: Protect against NULL unsolicited response function
+
+   * packages/apps/Email/
+8e69d0e22 Remove max aspect ratio.
+
+====================
+     07-23-2018
+====================
+
+
+   * bionic/
+a7b7640a8 libc: Mark libstdc++ as vendor available
+
+====================
+     07-22-2018
+====================
+
+   * android/
+828060c manifest: Switch to forked external/libdrm
+2d95bf6 Add hardware/lineage/telephony to the manifest
+
+   * build/make/
+7d0effa1d build: Never set persist.sys.usb.config=none in recovery
+
+   * device/oppo/common/
+fbbde8f Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * device/rr/sepolicy/
+1163616 sepolicy: recovery: Allow (re)mounting system
+
+   * frameworks/base/
+690ae711090 frameworks/base: squash import translations from LineageOS
+
+   * lineage-sdk/
+e4c84e1 Add vendor security patch level to device info
+eda2ae7 ProfileManager: Make PROFILE_SELECTED broadcast explicit
+
+   * packages/apps/Contacts/
+867a3a7fc Revert "Automatically set SIM number to my profile"
+
+   * packages/apps/DUI/
+
+   * packages/apps/Dialer/
+cc5dc5fae Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * packages/apps/Settings/
+d5444dffdd Fix Kirin GSI strings
+4ccdf378d6 [1/2] Add vendor security patch level to device info
+98106656b4 Settings: squash update translations from LineageOS
+
+   * system/core/
+2385c9f06 core: Lockscreen Charging info (1/3)
+
+   * system/sepolicy/
+7e7228a7 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * vendor/rr/
+406a251a kernel: Allow installing modules on system
+90462d84 privapp-permissions: Add new Dialer permissions
+c90d6a3c addonsu: Fix installation on TWRP A/B
+347060d9 apns: sprint: Default to legacy n.*, allow x.* as an alternative
+
+====================
+     07-21-2018
+====================
+
+
+   * packages/apps/LineageCustomizer/
+8907bcd Initial bringup to tvlauncher config style
+
+====================
+     07-20-2018
+====================
+
+
+   * hardware/qcom/display-caf/msm8974/
+740e9f9ef libgralloc: Fix adding offset to the mapped base address
+
+====================
+     07-19-2018
+====================
+
+
+====================
+     07-18-2018
+====================
+
+
+   * packages/apps/Dialer/
+b9d2a3a90 Re-add call recording.
+
+   * packages/apps/UnifiedEmail/
+4ab14c11a Don't re-show search bar on query click.
+
+====================
+     07-17-2018
+====================
+
+
+   * packages/apps/Recorder/
+07eb6ad Recorder: Use native functions to get H264 info
+
+====================
+     07-16-2018
+====================
+
+
+   * build/make/
+6e02efb43 build: Allow devices to provide prebuilt vbmeta image
+b6748fa8c build: recovery: add vendor to exclusion list
+
+   * device/qcom/sepolicy/
+6c5a9ef Allow binderized keymaster HAL access to firmware files.
+
+   * device/rr/sepolicy/
+237ca13 Make fuseblk use vfat context
+
+   * frameworks/native/
+73be23d0b Revert "InputDispatcher: On keypress, deliver keycode to pokeUserActivity"
+50886a095 Revert "PowerManager.h: Define USER_ACTIVITY_FLAG values"
+
+   * hardware/lineage/telephony/
+24f40ad telephony: Actually pull in telephony-ext into final build
+0f1392f Cleanup usage of static
+27c445e Return proper value for isDsdaEnabled
+
+   * packages/apps/LineageParts/
+0b1c696 parts: Trust: better warnings management
+00f4bfa LineageParts: Complete and correct SMS limits port
+179c9b4 parts: add SMS rate limit setting
+92d3a99 Align trust onboarding welcome change
+a1ec635 Parts: expose toggle for disabling trust alerts
+
+   * packages/apps/Settings/
+90023a512f settings: Add platform and RAM to "Model & Hardware" dialogue
+cafb6b8aff DisplaySettings: Allow devices to opt out from lift to wake detection
+865dbc8c74 Settings: handle decrypting larger pattern sizes for sw600dp
+
+   * packages/apps/Snap/
+
+   * vendor/rr/
+3098b318 extract_utils: Newline love for adb extraction
+201e1714 apns: sprint mms: mms.sprintpcs.com > oap7.sprintpcs.com
+dfc742c4 apns: sprint: n.ispsn -> x.ispsn
+34b3f589 build: Add support for sdm845 platform
+a146fcf1 envsetup: Filter unique push paths in dopush
+2089e8c9 envsetup: Fix adb recovery state detections
+8c664c0a extract_utils: make get_file() able to search paths with and w/o /system prefix
+f96411ce extract_utils: extract(): fix src not being searched in "src:dst;args" spec
+2d86bf75 extract_utils: extract(): rename DEST variable to VENDOR_REPO_FILE
+8be64ee3 extract_utils: extract(): rename ARGS variable to SPEC_ARGS
+041190a3 extract_utils: extract(): rename FILE variable to SPEC_SRC_FILE
+86d1f208 extract_utils: extract(): rename FROM variable to SPEC_DST_FILE
+73e25ddf extract_utils: create src_file() function to mirror behavior of target_file()
+441d8af9 extract_utils: prefix_match(): do not strip target_args from its output
+0a0db4a2 extract_utils: target_file() and target_args() cleanup
+184690b2 Revert "extract_files: Add support for paths without system/"
+89aaf943 Revert "extract_utils: Fix makefile generation issues"
+
+====================
+     07-15-2018
+====================
+
+
+   * frameworks/base/
+2d0e747856e Disable warning in StaticLayout
+d783d4ede90 Don't spoil printservice log if not needed
+6da1fb7ada1 Don't crash if there is IR HAL is not declared
+12e3f4bb4ca Fix janky traffic indicator tint
+4b2e66790cf Fix broadcast receiver leak issue
+6c8a24c2918 base: recents: properly size task lock icon in stock recents
+0d49c9ddf08 Check for null path in getInternalPathForUser
+164c789f197 ScanRecord.getServiceData NPE fix
+d4ffa2c3967 Return null if a provider died before acquisition
+42b4e4bb649 MtpDatabase: Fix potential NULL dereference errors
+adb9085e8af core: ChooserActivity: fix android crash from null object
+ef18b2da65d fix synchronization bug when notification enqueue/cancel
+7c89073c28e Themes: fix vpn status dialog
+152f3bcf7cd Move BT state to OFF when BLE app count is zero
+c35ab599f45 Account: Fix the risk of sqliteconnection leak
+0985684c185 base: SystemUI: center roaming indicator correctly
+3b333e512a0 SystemUI: stop filling logcat with useless stacktrace
+61e4a35b1a7 Release SQLite page cache as much as it can
+ada22db37db Remove unused calling for better performance
+c7ad2b0ea3a core: Fix long overflow issue in NetworkStats
+c5665c1812b Fix problems caused by multithreading in VibratorService
+fb3ccee690e SystemUI: Wallpaper is black or cut in half vertically
+8d7cb273c60 SystemUI: Keyguard: fix sim pin
+ed7c02a49aa SystemUI: Fix Data Usage tile to match Settings
+83f2f663ced Speed up the speed of computer MTP query
+b3321d7e9b2 Fix a 'memory leak'
+8d97e428160 Location: Skip processing when reciever pointer is null
+f96972b675c SystemUI: require auth for adb wireless
+4918f1bf775 base: limit direct share targets to reduce lag
+
+   * lineage-sdk/
+eeedd60 styles: do not enforce permission when it's not needed
+52327bb sdk: Trust: better warnings management
+2f82f79 Regen lineage_current
+1c89928 lineage-sdk: Introduce TelephonyExtUtils
+3b194b4 Trust: warn if build is signed with insecure keys
+de27973 TrustInterface: Handle unsupported encryption state
+c9aece2 Trust: add action to disable alerts to notifications
+
+   * packages/apps/DUI/
+
+   * packages/apps/ResurrectionOTA/
+
+   * packages/apps/Settings/
+d10c8ba109 Settings: Update maintainers for Z00L & Z00T
+
+   * packages/services/OmniJaws/
+
+   * system/sepolicy/
+12f18fd0 sepolicy: public: Exclude Recovery from system mount neverallow
+
+====================
+     07-14-2018
+====================
+
+
+   * frameworks/native/
+44e3085b5 sensorservice: customize sensor fusion mag filter via prop
+
+   * hardware/lineage/telephony/
+48a1c69 telephony: You have to add telephony-ext to boot jars
+
+   * hardware/qcom/power/
+64de35f power: Allow devices disabling power stats completely
+
+   * packages/apps/Settings/
+ca23d6d706 Update maintainer for merlin
+
+   * system/sepolicy/
+9667a553 sepolicy: Allow init to modify system_blk_device
+
+   * vendor/oneplus/
+bac99dea op3: Update blobs from OB39/OB30
+
+====================
+     07-13-2018
+====================
+
+
+   * external/libdrm/
+175278e5 libdrm: Avoid additional drm open close
+
+   * hardware/qcom/display-caf/sdm845/
+206194d53 Add C2D_COLOR_FORMAT_420_TP10 to C2D_YUV_FORMAT
+
+   * vendor/oneplus/
+b3b7dea1 oneplus2: Copy jars instead of building them
+
+====================
+     07-12-2018
+====================
+
+
+   * frameworks/av/
+2ad183484 Camera: CameraHardwareInterface: Releasing mHIDLMemoryMapLock in QdataCallback
+0f5a5ed7a Camera:CameraService: Added lock on mHIDLMemPoolId in QDataCallback..
+
+   * vendor/rr/
+5ca74b1c Remove the Official selection from script
+
+====================
+     07-11-2018
+====================
+
+
+   * packages/apps/Settings/
+bb5a36af32 Update device maintainer for YU Yureka Black(garlic)
+
+====================
+     07-10-2018
+====================
+
+
+   * device/oppo/common/
+
+   * hardware/lineage/telephony/
+41d2768 Add README for how to use this repo
+b32bdc9 Allow opting out of building this jar
+208646f Minor thread safety fixes
+b8e1462 Store provisioning pref separately from SIM status
+8fe9d76 Reenable both SIM cards on hotswap
+6374c2a Reset default sims on deactivation
+01b8f28 Implement crude manual SIM provisioning
+b18c7bf Implement a dummy IExtTelephony service
+a4efe66 Implement a fake qti-telephony-common.jar
+
+   * hardware/qcom/fm/
+
+   * packages/apps/Dialer/
+
+   * packages/apps/Eleven/
+
+   * packages/apps/FMRadio/
+
+   * packages/apps/Gallery2/
+
+   * packages/apps/Jelly/
+
+   * packages/apps/LockClock/
+
+   * packages/apps/Recorder/
+
+   * packages/apps/Snap/
+
+   * packages/apps/Terminal/
+
+   * packages/providers/WeatherProvider/
+
+   * system/update_engine/
+7e347c2 update_engine: Add performance mode
+
+   * vendor/oneplus/
+606d0ddc oneplus2: Remove prebuilt qti-telephony-common library
+
+====================
+     07-09-2018
+====================
+
+
+   * frameworks/native/
+74b51bcc3 native: drop hwui properties on O-MR1
+
+   * system/core/
+338ddb19c adb: Add wait-for-online command
+
+====================
+     07-08-2018
+====================
+
+
+   * system/security/
+169fff0 key_store:Using euid instead of uid when upgrade wifi blobs
+
+====================
+     07-07-2018
+====================
+
+   * android/
+96deb58 manifest: android-8.1.0_r30 -> android-8.1.0_r36
+
+   * build/make/
+a3f693d79 Add support for ZSH arrays
+e216ed536 build: Allow building disabled vbmeta images in signing process
+e9c662b61 Merge tag 'android-8.1.0_r36' into HEAD
+
+   * frameworks/base/
+3afdcffcee8 Merge tag 'android-8.1.0_r36' into HEAD
+
+   * frameworks/native/
+079197489 Merge tag 'android-8.1.0_r36' into HEAD
+
+   * hardware/qcom/power/
+2d1ce22 power-845: Fix compilation errors
+9e76194 Fix interaction boost higher cpu freq perflock
+b06e15f power: Adding hints for SDM845
+
+   * packages/apps/DUI/
+
+   * packages/apps/LineageParts/
+
+   * packages/apps/ResurrectionOTA/
+
+   * packages/apps/Settings/
+3a3df84389 Now we have Official Kirin GSI's
+
+   * packages/services/Telephony/
+c0559462b Merge tag 'android-8.1.0_r36' into HEAD
+
+   * vendor/rr/
+8d6d0fb5 Add Iliad APN
+28ca80bc apns: Add missing sprint roaming APN and set bearer_bitmasks
+567bf638 bfqio: Fix warning when building with BOARD_VNDK_VERSION := current
+7c825214 vendor: fix ro.adb.secure for vendor-building devices
+d566e589 apns: Adjust Sprint LTE internet to allow tether
+
+====================
+     07-06-2018
+====================
+
+   * android/
+80179f9 manifest: Switch to our fork of art
+c1ccb7f lineage: Add sdm845 platform    *s
+
+   * build/soong/
+3dbdf11 soong: Add kryo300 cpu variant to build/song
+
+   * frameworks/av/
+cdbf4e1b1 Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36
+
+   * hardware/interfaces/
+813c5f18 Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36
+
+   * hardware/qcom/display-caf/msm8998/
+9fa84679e gralloc: Add missing BT601_6_625 handing
+20bd3e874 gralloc1: Add support for secure display.
+6c718aacd liblight: Use char array instead of char pointer array for file name
+
+   * packages/apps/Bluetooth/
+0a28daca Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36
+
+   * system/bt/
+9ed246cb Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36
+
+   * system/libhidl/
+c5df720 Merge tag 'android-8.1.0_r36' into staging/lineage-15.1-android-8.1.0_r36
+
+====================
+     07-05-2018
+====================
+
+
+   * art/
+6a1401ba3 art: extend the supported cpu_variant list for arm64
+
+   * hardware/qcom/audio-caf/sdm845/
+8c36c2ad2 audio: Use direct    * pathmap
+
+   * hardware/qcom/display-caf/sdm845/
+d84e91012 libdisplayconfig: Remove android.hidl.base
+40e1f9e0a Don't build lights module if vendor supplies it
+af5514f39 display: Use    * pathmap
+
+   * hardware/qcom/media-caf/sdm845/
+48ace00d9 media: libOmxSw encoders require prop headers :(
+bf3b85e33 media: Use    * pathmap
+
+   * packages/apps/Email/
+5776d08fa Search in folder specified via URI parameter, if possible.
+c7daa4346 email: junk icon
+5d8fa3540 email: return default folder name for subfolders
+7a4bb6eef Email: Clean duplicated WRITE_CONTACTS permission
+21ccf8946 Email: Fix the ActivityNotFoundException when click "Update now"
+e1e040261 Improve notification coalescence algorithm.
+49b4fceb2 email: fix empty body update
+8f3de6c01 Allow download of compressed attachments.
+23c06e6c6 Fix crash when attempting to view EML files.
+4e325cd1a Request battery optimization exemption if IMAP IDLE is used.
+b39efdde7 Implement IMAP push using IMAP IDLE.
+1d41c1805 email: fix eas autodiscover
+1703c88d5 Rewrite MailboxSettings loading logic.
+
+   * packages/apps/UnifiedEmail/
+18ca9e750 Disable animations for translucent activities.
+
+====================
+     07-04-2018
+====================
+
+
+   * bionic/
+8325732f0 libc: kryo300 specific memory routine
+
+====================
+     07-03-2018
+====================
+
+
+====================
+     07-02-2018
+====================
+
+
+   * bionic/
+818d4e48e linker: Don't involve shim in for_each_dt_needed
+73fda2ad6 linker: Ensure active matching pairs
+
+   * external/selinux/
+66de5710 libsepol/cil: Improve processing of context rules
+
+   * frameworks/av/
+e0578a080 audiopolicy: update APM to use custom audio policy configuration
+
+   * system/extras/su/
+ae77c1a su.c: fix property check due to lineage rebranding
+
+====================
+     07-01-2018
+====================
+
+
+   * external/vim/
+cd2a2dfda Remove xxd Android.mk
+
+   * hardware/qcom/audio-caf/msm8996/
+3248c6424 Merge tag 'LA.UM.6.6.r1-08900-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-15.1-caf-8996
+
+   * hardware/qcom/audio-caf/msm8998/
+7951da34b Merge tag 'LA.UM.6.4.r1-09000-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-15.1-caf-8998
+
+   * hardware/qcom/display-caf/msm8998/
+ce4c7f677 Merge tag 'LA.UM.6.4.r1-08500-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into lineage-15.1-caf-8998
+
+   * hardware/qcom/media-caf/msm8916/
+844c3d4ec Merge tag 'LA.BR.1.2.9.1-02310-8x16.0' into lineage-15.1-caf-8916
+
+   * hardware/qcom/media-caf/msm8998/
+5866fde34 Merge tag 'LA.UM.6.4.r1-09000-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into lineage-15.1-caf-8998
+
+====================
+     06-30-2018
+====================
+
+
+   * frameworks/base/
+94975d480e3 Randomize the local Wifi IPv4 address
+1f1d85ff399 frameworks/base: Fix ContentService JNI leaks
+c2c921cc04e Resolve status bar battery percentage tints
+96ec818830e Resolve status bar VPN icon tints
+
+====================
+     06-29-2018
+====================
+
+
+   * development/
+71d87907e Grant dev tools system permission to trigger media-scan service
+
+   * device/rr/sepolicy/
+e812592 Revert "sepolicy: qcom: Allow nfc to read and execute files in /vendor on full treble"
+
+   * frameworks/base/
+c10aeec0f3c NetworkManagement : Add ability to restrict app data/wifi usage
+
+   * hardware/qcom/display-caf/msm8996/
+1ca654775 gralloc1: Add support for secure display.
+984ae720e liblight: Use char array instead of char pointer array for file name
+
+   * hardware/qcom/display-caf/sdm845/
+976091f4c Merge 1f7ec103fa374c2b030a89988921682c6e64a267 on remote branch
+
+   * hardware/qcom/media-caf/sdm845/
+019fd9dbb Merge e453f8322e231f26c8e3b4f8e29212dfe12b5549 on remote branch
+
+   * packages/apps/Settings/
+dd528272ca Settings: fix the background color for the expanded desktop settings
+140ce44408 Fix RR configurations "Panels" titles
+
+====================
+     06-28-2018
+====================
+
+
+   * packages/apps/Email/
+a67f3baa7 email: support per-folder notifications
+6bf14a3ee email: Add an ActionBar to the mail app's PreferenceActivity
+
+====================
+     06-27-2018
+====================
+
+
+   * frameworks/opt/telephony/
+2f05fd19c Proper supplementary service notification handling (2/5).
+
+   * packages/apps/UnifiedEmail/
+680d6c632 Make navigation drawer extend over status bar.
+
+   * system/core/
+4ae40c5ec camera: Add L-compatible camera feature enums
+
+   * vendor/nxp/opensource/external/libnfc-nci/
+ae86e8d Build nfc_nci.nqx.default with BOARD_VNDK_VERSION
+
+====================
      06-26-2018
 ====================
 
@@ -13,8 +678,27 @@
 9b017ac msm8998-common: add IFAA for Alipay fingerprint support
 601feed msm8998-common: Remove license.lic
 
-   * frameworks/opt/telephony/
-a448840d3 Revert "Don't assume 3GPP as active app on CDMA with LTE device"
+   * external/toybox/
+4841a344 toybox: Add install to symlinks
+
+   * hardware/qcom/audio-caf/msm8998/
+2957f2e20 hal: Fix VNDK_VERSION=current build for a2dp extension
+d9c1cb8b4 hal: Fix VNDK_VERSION=current build for msm8916
+
+   * hardware/ril-caf/
+7fd9ea4 Make RIL command headers overlayable by devices.
+c8b03a3 libril: Bounds check s_commands
+
+   * packages/apps/Email/
+cda66307c email: support for auto-sync multiple IMAP folders
+0ff70a025 Allow account deletion.
+
+   * vendor/nxp/opensource/external/libnfc-nci/
+801109e Revert "Fix description path for libnqp61-jcop-kit and move to vendor"
+
+   * vendor/nxp/opensource/packages/apps/Nfc/
+9625348f Revert "Look for libnqp61-jcop-kit.so in the vendor"
+
 
 ====================
      06-25-2018
