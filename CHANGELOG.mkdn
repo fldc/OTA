@@ -3,6 +3,347 @@
 
 
 ====================
+     08-15-2018
+====================
+
+
+   * device/oneplus/cheeseburger/
+a81742b cheeseburger: require 5.1.4 firmware
+
+   * device/oneplus/msm8998-common/
+b35cd23 msm8998: update data-ipa-cfg-mgr from LA.UM.6.4.r1-10300-8x98.0
+47e1854 msm8998: audio: update configs from 5.1.4 and caf
+a855be3 msm8998: update gps from LA.UM.6.4.r1-08500-8x98.0
+d0797b2 msm8998: update vendor security patch level
+2f94e3d msm8998: update blobs from 5.1.4
+61ada73 msm8998: audio: temp disable broken deep_buffer playback
+
+   * vendor/rr/
+d020f6ac soong_config: Add TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE
+
+====================
+     08-14-2018
+====================
+
+
+   * frameworks/av/
+691c91706 OMXNodeInstance: Allow dynamic native handle for shared mem buffer
+
+====================
+     08-13-2018
+====================
+
+
+   * kernel/oneplus/msm8998/
+5077d9946baa oneplus5: Improve headset compatibility
+d07118ff96be oneplus5: enable WLAN_TX_FLOW_CONTROL_V2 for qcacld-3.0
+f1fcb5ba554b drivers: staging: import wifi stack from LA.UM.6.4.r1-10300-8x98.0
+7e1e590146e4 Merge tag 'LA.UM.6.4.r1-10300-8x98.0' into lineage-15.1
+
+   * packages/apps/Snap/
+516483bf0 Snap: Allow quickreader to work with secure device
+
+   * vendor/rr/
+cf57f312 backuptool: fix restoring after commit 87bdbc138b6d27b4bd67b964eda24df4d8dbe2c8
+
+====================
+     08-12-2018
+====================
+
+
+   * lineage-sdk/
+b486978 sdk: Add minimal LineageSettingsService
+3c3ad38 Import preference class for custom hostname feature
+301cccb sdk: Allow controllable brightness for non-RGB segmented battery LEDs
+9e71784 sdk: Rework reading mode API
+
+   * packages/apps/LineageParts/
+1abdf44 LineageParts: Remove PrivacySettings
+17fc3ad LineageParts: Allow brightness control for segmented LEDs
+7ac9fc8 LineageParts: Update reading mode toggle for new API
+
+====================
+     08-11-2018
+====================
+
+   * android/
+1a21a25 lineage: Remove no longer used commented repositories
+8baa7f9 manifest: android-8.1.0_r36 -> android-8.1.0_r43
+
+   * build/make/
+f32d99e2d Merge tag 'android-8.1.0_r43' into HEAD
+
+   * frameworks/base/
+688663e7f85 fw/b lights: Allow black notification color
+78c72dd2d60 Merge tag 'android-8.1.0_r43' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+   * hardware/lineage/interfaces/
+9bcc1bd Update makefiles from anywhere.
+
+   * kernel/oneplus/msm8998/
+0c9773c95852 wcd9xxx: Improve power consumption
+6a0b4edd5488 wcd-mbhc: Improve power consumption
+39afc7b2b270 pn5xx: Improve NFC power consumption
+b0a94c137db0 pn5xx: power consumption improvement
+
+   * packages/apps/Messaging/
+fc5f2d9 Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_packages_apps_Messaging into HEAD
+
+   * packages/apps/Settings/
+daffc062ff Merge tag 'android-8.1.0_r43' into HEAD
+477967d697 Expose option to change the device hostname.
+
+   * packages/services/Telephony/
+71793c3c3 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * vendor/oneplus/
+8122b819 msm8998: update blobs from 5.1.4
+
+   * vendor/rr/
+87bdbc13 backuptool: Resolve incompatible version grep syntax
+67af1024 lineage: Set perms on reading_mode sysfs
+b57d9f16 lineage: Allow background broadcast for CAMERA_BUTTON
+06483cd9 Revert "ota: Validate any installed data's signature against our own"
+1b85634f vendor: Copy org.lineageos.settings permission
+
+====================
+     08-10-2018
+====================
+
+
+   * hardware/lineage/lineagehw/
+a027dee lineagehw: Check if files are readable when we read them
+
+====================
+     08-09-2018
+====================
+
+
+   * external/e2fsprogs/
+81fe13e1 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * frameworks/av/
+f1f657bb8 Merge tag 'android-8.1.0_r43' into HEAD
+
+   * frameworks/opt/telephony/
+1e612ae44 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * hardware/lineage/lineagehw/
+82d586c lineagehw: Add support for sysfs ReadingEnhancement
+7f833b8 lineagehw: Update ReadingEnhancement for new API
+
+   * hardware/qcom/power/
+8169e39 power-8084: document performance settings
+0ef4cb4 power-8084: drop POWER_HINT_LAUNCH handling
+f23b333 power-8084: reduce interactive boost
+7dd0696 power-8084: clean up code
+
+   * packages/apps/Messaging/
+3686c41 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+af0e887 Revert "Messaging: Request external storage permission before handling shared files"
+
+   * packages/apps/PackageInstaller/
+e57050ae Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * packages/apps/Settings/
+c28cb4de21 Update Lenovo P2 maintainer
+
+   * packages/apps/UnifiedEmail/
+d2fc4bd94 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * packages/providers/DownloadProvider/
+5ee3e34 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * packages/services/Telephony/
+ce5915c74 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * system/bt/
+37b2ade8 Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+   * system/vold/
+2aa8eba Merge tag 'android-8.1.0_r43' into staging/lineage-15.1_merge-android-8.1.0_r43
+
+====================
+     08-08-2018
+====================
+
+
+====================
+     08-07-2018
+====================
+
+
+   * hardware/qcom/power/
+34c7410 power: Fix several typos in power profiles
+
+====================
+     08-06-2018
+====================
+
+
+   * frameworks/base/
+7196f52c8b4 Add a ripple effect to the power menu items
+91530594249 StatusBar: Bluetooth icon transparent when disconnected
+4c6fcefd25c FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+723c739723f Ripple all things!
+0fb223816b2 Move Navigation QS tile vectors to drawable folder
+3d8159c66ea camera: Check if aux camera whitelist is set before restricting cameras
+e6f82224d67 base: ROM size calculation error on 4GB ROM device
+37fd3361aaf Fix possible NPE
+
+   * packages/apps/AudioFX/
+
+====================
+     08-05-2018
+====================
+
+
+   * hardware/qcom/fm/
+
+   * packages/apps/Bluetooth/
+
+   * packages/apps/Camera2/
+
+   * packages/apps/CellBroadcastReceiver/
+
+   * packages/apps/Contacts/
+19916d503 Allow calling contacts via specific phone accounts.
+
+   * packages/apps/DocumentsUI/
+
+   * packages/apps/Email/
+
+   * packages/apps/ExactCalculator/
+
+   * packages/apps/Gallery2/
+
+   * packages/apps/Jelly/
+
+   * packages/apps/ManagedProvisioning/
+
+   * packages/apps/Messaging/
+
+   * packages/apps/PackageInstaller/
+
+   * packages/apps/PhoneCommon/
+
+   * packages/apps/Profiles/
+
+   * packages/apps/Snap/
+
+   * packages/apps/Stk/
+
+   * packages/apps/StorageManager/
+
+   * packages/apps/Tag/
+
+   * packages/apps/TvSettings/
+
+   * packages/apps/UnifiedEmail/
+
+   * packages/inputmethods/LatinIME/
+
+   * packages/providers/DownloadProvider/
+
+   * packages/providers/MediaProvider/
+
+   * packages/services/BuiltInPrintService/
+
+   * packages/services/Telephony/
+613cdfede Use proper summary for network select list preference on dsds/dsda/tsts
+
+   * vendor/oneplus/
+3fde88e3 op3: Update blobs from OOS 5.0.4
+
+====================
+     08-04-2018
+====================
+
+
+   * build/make/
+6cf1ad1ab Create 0 compression ratio jar files
+373fdff8d core: use 0 compression when creating the target_files package
+
+   * external/f2fs-tools/
+3aac42a fsck: Fix conflicts with libext2_quota
+e4ea681 fsck: Update libf2fs_fsck source file list
+2dcd2b0 Android.bp/mk: update strings to reflect v1.11.0 release
+
+   * frameworks/base/
+e73bae6d0a5 Add DNS_TETHER to the list of UIDs in the framework.
+38ae1c4f7f4 aapt: enforce 0 compression
+359e79d1e44 aapt: allow opting out of uncompressed aapt
+153d179f37b aapt: Default to 0 compression ratio
+a0bace4462c Scroll: modified velocitytracker
+9f6200c3f95 Frequently used OpenGL ES methods whitelisted for fast JNI path
+
+   * packages/apps/Email/
+430cc8757 Update strings for crowdin
+
+   * packages/apps/Settings/
+
+   * packages/apps/SnapdragonCamera2/
+79e555b8b SnapdragonCamera2: fix some ui disturbances
+
+   * system/vold/
+3fc5dbb secdiscard: should pin_file to avoid moving blocks in F2FS
+
+====================
+     08-03-2018
+====================
+
+
+   * packages/apps/SnapdragonCamera2/
+5536dd8e0 SnapdragonCamera2: fix setting icon for redeye reduction
+939759228 remove deepportrait for now
+7728f0a08 what the....
+
+====================
+     08-02-2018
+====================
+
+
+   * bootable/recovery/
+9367537d uncrypt: fix f2fs ioctl argument for pin_file
+806de779 f2fs: support f2fs by setting unmovable bit for package file
+
+   * kernel/oneplus/msm8998/
+515ee39669da Merge "icnss: Remove sending uevent after FW ready" into kernel.lnx.4.4.r27-rel
+
+   * packages/apps/Settings/
+f3a071b2a8 Add Maintainer for Taco: Yu Yureka 2
+
+   * packages/apps/SnapdragonCamera2/
+16a4a19e7 Merge tag 'LA.UM.6.3.r4-04700-sdm845.0' into android-8.1
+
+   * packages/services/Telephony/
+a326beb41 Use proper summary for network select list preference on dsds/dsda/tsts
+
+====================
+     08-01-2018
+====================
+
+
+   * frameworks/opt/telephony/
+b55111385 IMS: Sudden deregisteration takes place soon after registeration.
+
+   * kernel/oneplus/msm8998/
+dabc56ff4434 icnss: Remove sending uevent after FW ready
+
+   * packages/apps/Settings/
+a46165f7a0 Update potter maintainer
+
+====================
+     07-31-2018
+====================
+
+
+   * device/oneplus/msm8998-common/
+c245b9e msm8998: update gps config
+b50cef2 oneplus_msm8998-common: update call recording overlays
+f9dce68 oneplus-msm8998: Drop deprecated OpenGLRenderer props
+
+====================
      07-30-2018
 ====================
 
