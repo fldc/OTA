@@ -3,7 +3,135 @@
 
 
 ====================
-     08-15-2018
+     08-23-2018
+====================
+
+
+   * device/oneplus/cheeseburger/
+398c857 cheeseburger: update fingerprint from 5.1.5
+
+   * device/oneplus/msm8998-common/
+4648a1c msm8998: fix another ifaa denial
+0b4c92a msm8998: vndk-sp is no vendor module
+d0db2a6 msm8998: selinux fixes for ifaa
+b4fbe39 msm8998: remove USE_SENSOR_MULTI_HAL
+92e08e4 msm8998: move ifaa back to system
+cfc943b msm8998: Go treble!
+3aba3c3 msm8998: move /system/vendor to /vendor
+d756964 msm8998: Fix sepolicy for Treble
+4b31830 msm8998: update vendor patch level
+8fb0b2b msm8998: specify additional root folders
+41477a1 msm8998: recovery: add vendor partiton to fstab
+856a215 msm8998: update blobs from 5.1.5
+5ed093a msm8998: update gps configs from 5.1.4
+604bdf2 msm8998: audio: fix 5.1.4 merge fail
+
+   * device/qcom/sepolicy/
+c673533 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * frameworks/base/
+
+   * frameworks/native/
+ed8976d95 Merge branch 'lineage-15.1' of git://github.com/LineageOS/android_frameworks_native into HEAD
+
+   * kernel/oneplus/msm8998/
+f4e8a82c9873 oneplus5: mount vendor partition
+
+   * lineage-sdk/
+bfea90d sdk: Add migration for /missing/ custom button actions
+e14deb8 Regen lineage_current
+
+   * packages/apps/LineageParts/
+4d4583c Fix Trust strings again
+f0bfea5 LineageParts: Fix unescaped quote in trust_feature_security_patches_explain
+2ad4688 Trust: String changes for accuracy of language
+2030f81 LineageParts: Add missing recycle() calls
+27ae53d LineageParts: Add missing cursor close
+0cbd274 LineageParts: add one finger swipe up from home gesture string
+
+   * packages/apps/Settings/
+
+   * vendor/oneplus/
+ea432212 oneplus5: move ifaa back to system
+dc3ab165 oneplus5: update blobs from 5.1.5, vendor move
+
+   * vendor/rr/
+88bb767c build: Add dtbo task
+feb76961 config/common: Clean up debug packages
+
+====================
+     08-22-2018
+====================
+
+
+====================
+     08-21-2018
+====================
+
+
+====================
+     08-20-2018
+====================
+
+
+   * packages/apps/Settings/
+09d0b0c1b0 Update herolte maintainer
+
+   * packages/apps/Snap/
+
+====================
+     08-19-2018
+====================
+
+
+   * packages/apps/Eleven/
+fd34342 Eleven: bump to api26
+
+   * packages/apps/Snap/
+159d79bdc CameraSettings: Do not crash if zoom ratios are not exposed
+
+====================
+     08-18-2018
+====================
+
+
+====================
+     08-17-2018
+====================
+
+
+   * packages/apps/Camera2/
+
+   * packages/apps/CertInstaller/
+
+   * packages/apps/DocumentsUI/
+
+   * packages/apps/Email/
+
+   * packages/apps/ExactCalculator/
+
+   * packages/apps/Gallery2/
+
+   * packages/apps/Jelly/
+
+   * packages/apps/ManagedProvisioning/
+
+   * packages/apps/Nfc/
+
+   * packages/apps/PackageInstaller/
+
+   * packages/apps/PhoneCommon/
+
+   * packages/apps/TvSettings/
+
+   * packages/apps/UnifiedEmail/
+
+   * packages/inputmethods/LatinIME/
+
+   * packages/providers/DownloadProvider/
+
+====================
+     08-16-2018
 ====================
 
 
@@ -20,6 +148,17 @@ d0797b2 msm8998: update vendor security patch level
 
    * vendor/rr/
 d020f6ac soong_config: Add TARGET_NEEDS_LEGACY_CAMERA_HAL1_DYN_NATIVE_HANDLE
+
+====================
+     08-15-2018
+====================
+
+
+   * frameworks/av/
+691c91706 OMXNodeInstance: Allow dynamic native handle for shared mem buffer
+
+   * packages/apps/Settings/
+a096f26e22 Update ZenFone 3 maintainer
 
 ====================
      08-14-2018
