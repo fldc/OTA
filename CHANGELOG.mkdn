@@ -3,6 +3,18 @@
 
 
 ====================
+     08-24-2018
+====================
+
+
+   * device/oneplus/msm8998-common/
+11645a5 msm8998: updater: check if vendor partition exists
+f851b60 msm8998: Move qcrilmsgtunnel.apk out of /vendor
+
+   * vendor/oneplus/
+cd0c2db3 msm8998: Move qcrilmsgtunnel.apk out of /vendor
+
+====================
      08-23-2018
 ====================
 
@@ -28,6 +40,9 @@ d756964 msm8998: Fix sepolicy for Treble
 
    * device/qcom/sepolicy/
 c673533 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
+
+   * frameworks/av/
+01ccfc12f mediascanner: Accept .opus file extension.
 
    * frameworks/base/
 
