@@ -3,19 +3,23 @@
 
 
 ====================
-     08-24-2018
+     08-26-2018
 ====================
 
 
    * device/oneplus/msm8998-common/
-11645a5 msm8998: updater: check if vendor partition exists
-f851b60 msm8998: Move qcrilmsgtunnel.apk out of /vendor
-
-   * vendor/oneplus/
-cd0c2db3 msm8998: Move qcrilmsgtunnel.apk out of /vendor
+6be45af msm8998: Use mke2fs to create ext4 images
+41a64b8 msm8998-common: sed qti_libpermissions.xml during extract instead of pinning
+716f4e9 msm8998: Fix typo from CodeAurora in the QTI whitelist
+279f81e msm8998: update cne, ims blobs list
 
 ====================
-     08-23-2018
+     08-25-2018
+====================
+
+
+====================
+     08-24-2018
 ====================
 
 
@@ -23,6 +27,8 @@ cd0c2db3 msm8998: Move qcrilmsgtunnel.apk out of /vendor
 398c857 cheeseburger: update fingerprint from 5.1.5
 
    * device/oneplus/msm8998-common/
+11645a5 msm8998: updater: check if vendor partition exists
+f851b60 msm8998: Move qcrilmsgtunnel.apk out of /vendor
 4648a1c msm8998: fix another ifaa denial
 0b4c92a msm8998: vndk-sp is no vendor module
 d0db2a6 msm8998: selinux fixes for ifaa
@@ -37,6 +43,18 @@ d756964 msm8998: Fix sepolicy for Treble
 856a215 msm8998: update blobs from 5.1.5
 5ed093a msm8998: update gps configs from 5.1.4
 604bdf2 msm8998: audio: fix 5.1.4 merge fail
+
+   * packages/apps/Gallery2/
+8ccbc4f78 Gallery: use platform cert
+
+   * vendor/oneplus/
+d9da5c1f msm8998: add more cne, ims blobs
+cd0c2db3 msm8998: Move qcrilmsgtunnel.apk out of /vendor
+
+====================
+     08-23-2018
+====================
+
 
    * device/qcom/sepolicy/
 c673533 Merge remote-tracking branch 'LineageOS/lineage-15.1' into HEAD
@@ -65,6 +83,9 @@ f0bfea5 LineageParts: Fix unescaped quote in trust_feature_security_patches_expl
 0cbd274 LineageParts: add one finger swipe up from home gesture string
 
    * packages/apps/Settings/
+
+   * packages/apps/Snap/
+ae27a9f2c Snap: use platform cert
 
    * vendor/oneplus/
 ea432212 oneplus5: move ifaa back to system
