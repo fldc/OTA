@@ -3,6 +3,35 @@
 
 
 ====================
+     08-28-2018
+====================
+
+   * android/
+7c0d8ed rr: manifest: track updated clang repository from AOSiP GitHub
+
+   * device/oneplus/msm8998-common/
+d8c7819 msm8998: Move qcnvitems.jar / qcrilhook.jar out of boot jars
+a8f58c3 msm8998: update config fs
+7c65815 msm8998: fix some bluetooth specific selinux denials
+
+   * frameworks/base/
+
+   * packages/apps/Settings/
+
+====================
+     08-27-2018
+====================
+
+
+   * external/openssh/
+7e0e3db2 Disable StrictModes
+825d447b Add Android support
+bcbd12e5 Revert "upstream: Ensure that D mod (P-1) and D mod (Q-1) are calculated in"
+
+   * packages/apps/Profiles/
+4958985 Profiles: Properly depend on Lineage SDK
+
+====================
      08-26-2018
 ====================
 
@@ -12,6 +41,9 @@
 41a64b8 msm8998-common: sed qti_libpermissions.xml during extract instead of pinning
 716f4e9 msm8998: Fix typo from CodeAurora in the QTI whitelist
 279f81e msm8998: update cne, ims blobs list
+
+   * packages/apps/AudioFX/
+c71c96c AudioFX: Properly depend on Lineage SDK
 
 ====================
      08-25-2018
@@ -23,26 +55,12 @@
 ====================
 
 
-   * device/oneplus/cheeseburger/
-398c857 cheeseburger: update fingerprint from 5.1.5
-
    * device/oneplus/msm8998-common/
 11645a5 msm8998: updater: check if vendor partition exists
 f851b60 msm8998: Move qcrilmsgtunnel.apk out of /vendor
-4648a1c msm8998: fix another ifaa denial
-0b4c92a msm8998: vndk-sp is no vendor module
-d0db2a6 msm8998: selinux fixes for ifaa
-b4fbe39 msm8998: remove USE_SENSOR_MULTI_HAL
-92e08e4 msm8998: move ifaa back to system
-cfc943b msm8998: Go treble!
-3aba3c3 msm8998: move /system/vendor to /vendor
-d756964 msm8998: Fix sepolicy for Treble
-4b31830 msm8998: update vendor patch level
-8fb0b2b msm8998: specify additional root folders
-41477a1 msm8998: recovery: add vendor partiton to fstab
-856a215 msm8998: update blobs from 5.1.5
-5ed093a msm8998: update gps configs from 5.1.4
-604bdf2 msm8998: audio: fix 5.1.4 merge fail
+
+   * external/openssh/
+71508e06 shorten temporary SSH_REGRESS_TMP path
 
    * packages/apps/Gallery2/
 8ccbc4f78 Gallery: use platform cert
