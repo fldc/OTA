@@ -3,6 +3,24 @@
 
 
 ====================
+     08-30-2018
+====================
+
+
+   * device/oneplus/msm8998-common/
+6b303be msm8998: bring config.fs inline with caf
+
+   * hardware/qcom/power/
+1be7662 power-8916: fix using wrong array size in perform_hint_action
+
+   * packages/apps/Email/
+fd45e565b Don't request battery optimization exemption if not needed.
+
+====================
+     08-29-2018
+====================
+
+====================
      08-28-2018
 ====================
 
